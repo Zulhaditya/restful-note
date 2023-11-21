@@ -1,0 +1,52 @@
+# host
+http://localhost:3000
+
+--silent
+
+# headers
+Accept: application/json;
+Connection: keep-alive
+Content-Type: application/json; charset=utf-8
+
+# ============== BLOG ================
+# POST /posts/
+# {
+#   "title": "Kingslayer",
+#   "body": "Bring Me The Horizon"
+# }
+
+# PUT /posts/3
+# {
+#   "title": "Kingslayer",
+#   "body": "Bring Me The Horizon"
+# }
+
+
+
+# ============== ENPOINT ================
+
+# get all data
+GET /api/note 
+
+# get data by id
+# GET /api/note/15248fd5-3911-471c-a3a4-0f6cea5e64aa
+
+# create a note
+# POST /api/note
+# {
+#   "title": "Create a golang APIs",
+#   "subtitle": "Fix a bugs",
+#   "text": "Testing to post notes"
+# }
+
+# update a note
+# PUT /api/note/ddcaad8e-1f41-47e5-bded-d1684e3404df
+# {
+#   "title": "Update a package",
+#   "subtitle": "Learn a web development",
+#   "text": "Try to be honest!"
+# }
+
+# Delete a note
+# DELETE /api/note/ddcaad8e-1f41-47e5-bded-d1684e3404df
+
