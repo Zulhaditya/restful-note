@@ -34,6 +34,20 @@
 
 ## Setup
 
+## Database
+- Get Postgresql running on your machine, and create a database restfulnote for our implementation.
+- Follow instructions at - https://www.postgresql.org/download
+
+### Environment Variable
+Before running the project, you can setup environment variables by creating an .env and customize according to your preference:
+```
+DB_HOST=localhost
+DB_NAME=restfulnote
+DB_USER=postgres
+DB_PASSWORD=admin@123
+DB_PORT=5432
+```
+
 To run this project, build it using docker-compose:
 
 ```bash
