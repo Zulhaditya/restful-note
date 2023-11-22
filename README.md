@@ -35,7 +35,7 @@
 ## Setup
 
 ## Database
-- Get Postgresql running on your machine, and create a database restfulnote for our implementation.
+- Get Postgresql running on your machine, and create a database **restfulnote** for our implementation.
 - Follow instructions at - https://www.postgresql.org/download
 
 ### Environment Variable
