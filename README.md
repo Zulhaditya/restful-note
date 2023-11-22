@@ -1,5 +1,3 @@
-## Run this project using: air
-
 # RESTful Notes Taking APIs
 
 > A Rest APIs for Note taking with fully functionality backend services.
